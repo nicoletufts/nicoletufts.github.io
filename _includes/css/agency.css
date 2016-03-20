@@ -197,9 +197,9 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Helvetica Neue",Helvetica,sans-serif;;
-    font-weight: 200;
+    font-weight: 600;
     color: #{{ site.color.primary }};
-    text-shadow: 0 0 18px black;
+    /*text-shadow: 0 0 18px black;*/
 }
 
 .navbar-brand {
@@ -335,7 +335,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 200;
     line-height: 50px;
-    text-shadow: 0 0 18px black;
+    /*text-shadow: 0 0 18px black;*/
 }
 
 header .intro-text .intro-stmt {
@@ -345,7 +345,7 @@ header .intro-text .intro-stmt {
   padding: 5%;
   padding-bottom: 0;
   padding-top: 0;
-  text-shadow: 0 0 18px black;
+  /*text-shadow: 0 0 18px black;*/
   max-width: 800px;
   margin: auto;
   margin-bottom: 50px;
@@ -353,6 +353,10 @@ header .intro-text .intro-stmt {
 
 .left-btn, .right-btn {
   margin-bottom: 20px;
+}
+
+h4 a {
+  color: inherit;
 }
 
 @media(min-width:768px) {
