@@ -622,6 +622,12 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
+.about-text {
+  text-align: justify;
+  max-width: 800px;
+  margin: auto;
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
