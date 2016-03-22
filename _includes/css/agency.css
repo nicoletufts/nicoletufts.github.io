@@ -628,6 +628,42 @@ section h3.section-subheading {
   margin: auto;
 }
 
+.fav-text {
+  margin-top: 20px;
+  text-align: center;
+  color: #444;
+}
+
+.fav-text ul {
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.fav-text li {
+    padding-left: 1em;
+    text-indent: -.7em;
+    margin-bottom: 5px;
+}
+
+.fav-text li:before {
+  content: "\f08a";
+  font-family: FontAwesome;
+  color: #FFB2B2;
+  font-size: 14px;
+  margin-right: 11px;
+}
+
+.fav-header {
+  margin-bottom: 45px;
+}
+
+.fav-col {
+  margin-bottom: 30px;
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
