@@ -32,7 +32,7 @@ html, body, .resume {
 .resume .row .side h2 {
 	font-size: 25px;
 	line-height: 1;
-	font-weight: 100;
+	font-weight: 300;
 }
 .resume .row:first-child .side, .resume .row:first-child .main {
 	padding-top: 30px;
