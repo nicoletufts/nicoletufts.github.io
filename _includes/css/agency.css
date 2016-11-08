@@ -398,7 +398,18 @@ section {
 }
 
 section#contact {
-    padding: 0;
+    padding: 80px 20px;
+    background: #FFB2B2;
+    text-align: center;
+}
+
+.contact-email {
+    color: white;
+    font-size: 30px;
+}
+
+.contact-email:hover {
+  color: white;
 }
 
 section h2.section-heading {
