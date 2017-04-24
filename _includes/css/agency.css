@@ -195,6 +195,11 @@ fieldset[disabled] .btn-xl.active {
   background-color: #222;
 }
 
+.navbar-shrink a, .collapse.in a, .collapsing a {
+  color: #fff !important;
+  /*padding-top: 19.5px !important;*/
+}
+
 .navbar-default .navbar-brand {
     font-family: "Helvetica Neue",Helvetica,sans-serif;;
     font-weight: 600;
@@ -238,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #000;
 }
 
 .navbar-default .nav li a:hover,
@@ -274,7 +279,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 3em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -301,30 +306,41 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url(img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    /*background-attachment: scroll;*/
+    /*background-image: url(img/header-bg.jpg);*/
+    /*background-position: center center;*/
+    /*background-repeat: none;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*background-size: cover;*/
+    /*-o-background-size: cover;*/
 }
 
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0);
+    color: black;
 }
 
 header .headerContainer {
   padding: 0;
+  background-color: #ffeaea;
+}
+
+#about {
+  background-color: #ffeaea;
+}
+
+.about-img {
+  padding-top: 10px;
+  padding-bottom: 25px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     font-style: italic;
     line-height: 22px;
 }
@@ -336,12 +352,13 @@ header .intro-text .intro-heading {
     font-weight: 200;
     line-height: 50px;
     /*text-shadow: 0 0 18px black;*/
+    display: none;
 }
 
 header .intro-text .intro-stmt {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 200;
-  font-size: 21px;
+  /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+  font-weight: 300;
+  font-size: 26px;
   padding: 5%;
   padding-bottom: 0;
   padding-top: 0;
@@ -360,6 +377,9 @@ h4 a {
 }
 
 @media(min-width:768px) {
+  .navbar-nav>li>a {
+    padding-top:22.5px;
+  }
     .left-btn {
       text-align: right;
     }
@@ -373,7 +393,7 @@ h4 a {
     }
 
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 150px;
         padding-bottom: 75px;
     }
 
@@ -387,8 +407,8 @@ h4 a {
 
     header .intro-text .intro-heading {
         margin-bottom: 30px;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+        /*font-size: 75px;*/
         line-height: 75px;
     }
 }
