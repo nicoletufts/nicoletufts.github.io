@@ -352,7 +352,7 @@ header .intro-text .intro-heading {
     font-weight: 200;
     line-height: 50px;
     /*text-shadow: 0 0 18px black;*/
-    display: none;
+    /*display: none;*/
 }
 
 header .intro-text .intro-stmt {
